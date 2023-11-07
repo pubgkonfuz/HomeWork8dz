@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HomeWork8</string>
+    <string name="vhod">Вход</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="acount_register">Выполните вход \n или зарегистрируйтесь</string>
+    <string name="email">Введите вашу почту</string>
+    <string name="password">Введите пароль</string>
+    <string name="come">Войти</string>
+    <string name="forgot_password">Забыл пароль?</string>
+    <string name="click">Нажми сюда</string>
+</resources>
