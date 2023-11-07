@@ -1,15 +1,14 @@
 package com.example.homework8;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -35,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         btnSignIn = this.findViewById(R.id.btn_sign);
 
         signIn();
-        goToSignUp();
     }
 
     private void signIn() {
@@ -58,10 +56,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void goToSignUp() {
-        {
-            Intent signUpIntent = new Intent(MainActivity.this, SecondActivity.class);
-            startActivity(signUpIntent);
-        }
+        Intent signUpIntent = new Intent(MainActivity.this, SecondActivity.class);
+        startActivity(signUpIntent);
     }
 
     @Override
