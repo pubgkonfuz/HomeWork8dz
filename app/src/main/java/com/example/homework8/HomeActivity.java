@@ -1,22 +1,21 @@
 package com.example.homework8;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatButton;
-
-public class SecondActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
     private ImageView iconBack;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_home);
         iconBack = this.findViewById(R.id.iv_arraw_back);
-
         goBack();
     }
 
